@@ -1,0 +1,111 @@
+.mtn-header-container{
+  max-width: 1920px;
+  height:710px;
+  width:100%;
+  margin:0 auto;
+  position: relative;
+  background-color: #e7e7e8;
+}
+body{
+  margin:0;
+}
+ #mtn-layer-0{
+   background-image: url('./assets/Layer-0.png');
+   background-size: contain;
+   background-position: bottom;
+   background-repeat: no-repeat;
+   position: absolute;
+   width:100%;
+   height:383px;
+   bottom:0px;
+   z-index: 10;
+ }
+ #mtn-layer-1{
+   background-image: url('./assets/Layer-1.png');
+   background-size: contain;
+   background-position: bottom;
+   background-repeat: no-repeat;
+   position: absolute;
+   width:100%;
+   height:558px;
+   bottom:0px;
+   z-index: 9;
+ }
+ #mtn-layer-2{
+   background-image: url('./assets/Layer-2.png');
+   background-size: contain;
+   background-position: bottom;
+   background-repeat: no-repeat;
+   position: absolute;
+   width:100%;
+   height:643px;
+   bottom:0px;
+   z-index: 8;
+ }
+ #mtn-layer-3{
+   background-image: url('./assets/Layer-3.png');
+   background-size: contain;
+   background-position: bottom;
+   background-repeat: no-repeat;
+   position: absolute;
+   width:100%;
+   height:89px;
+   bottom:320px;
+   z-index: 7;
+ }
+ #mtn-layer-4{
+   background-image: url('./assets/Layer-4.png');
+   background-size: contain;
+   background-position: bottom;
+   background-repeat: no-repeat;
+   position: absolute;
+   width:100%;
+   height:571px;
+   bottom:0px;
+   z-index: 6;
+ }
+ #mtn-layer-5{
+   background-image: url('./assets/Layer-5.png');
+   background-size: contain;
+   background-position: bottom;
+   background-repeat: no-repeat;
+   position: absolute;
+   width:100%;
+   height:202px;
+   bottom:292px;
+   z-index: 5;
+   left:208px;
+ }
+ #mtn-layer-6{
+   background-image: url('./assets/Layer-6.png');
+   background-size: contain;
+   background-position: bottom;
+   background-repeat: no-repeat;
+   position: absolute;
+   width:100%;
+   height:705px;
+   bottom:0px;
+   z-index: 4;
+ }
+ #mtn-layer-7{
+   background-image: url('./assets/Layer-7.png');
+   background-size: contain;
+   background-position: bottom;
+   background-repeat: no-repeat;
+   position: absolute;
+   width:100%;
+   height:827px;
+   bottom:0px;
+   z-index: 3;
+ }
+ #mtn-layer-8{
+   background-image: url('./assets/Layer-8.png');
+   background-size: contain;
+   background-position: bottom;
+   background-repeat: no-repeat;
+   position: absolute;
+   width:100%;
+   height:126px;
+   bottom:335px;
+   z-index: 2;
+ }
