@@ -18,25 +18,19 @@
     <div id="mtn-layer-2" class="mtn-header-layer">
 
     </div>
-    <div id="mtn-layer-3" class="mtn-header-layer">
 
-    </div>
 
     <div id="mtn-layer-4" class="mtn-header-layer">
 
     </div>
-    <div id="mtn-layer-5" class="mtn-header-layer">
 
-    </div>
     <div id="mtn-layer-6" class="mtn-header-layer">
 
     </div>
     <div id="mtn-layer-7" class="mtn-header-layer">
 
     </div>
-    <div id="mtn-layer-8" class="mtn-header-layer" >
 
-    </div>
   </div>
   <div class="main-container">
 
@@ -53,27 +47,28 @@
 
  $(window).scroll(function(){
    var scrolltop = window.pageYOffset;
-   console.log(scrolltop*.2);
-       $('#mtn-layer-0').css({
-        transform: "translate3d(0,"+ -scrolltop+"px,0)"
-      });
-      $('#mtn-layer-1').css({
-       transform: "translate3d(0,"+ -scrolltop*.7 +"px,0)"
-       });
-     $('#mtn-layer-2').css({
-      transform: "translate3d(0,"+ -scrolltop*.6 +"px,0)"
-      });
-    $('#mtn-layer-3').css({
-     transform: "translate3d(0,"+ -scrolltop*.5 +"px,0)"
-     });
-     $('#mtn-layer-4').css({
-      transform: "translate3d(0,"+ -scrolltop*.4 +"px,0)"
+   console.log(scrolltop);
+
+     $('#mtn-layer-0').css({
+      transform: "translate3d(0,"+ -scrolltop+"px,0)"
     });
-    $('#mtn-layer-6').css({
-     transform: "translate3d(0,"+ -scrolltop*.3 +"px,0)"
+    $('#mtn-layer-1').css({
+     transform: "translate3d(0,"+ -scrolltop*.8 +"px,0)"
+     });
+   $('#mtn-layer-2').css({
+    transform: "translate3d(0,"+ -scrolltop*.7 +"px,0)"
+    });
+  $('#mtn-layer-3').css({
+   transform: "translate3d(0,"+ -scrolltop*.6 +"px,0)"
+   });
+   $('#mtn-layer-4').css({
+    transform: "translate3d(0,"+ -scrolltop*.5 +"px,0)"
+  });
+  $('#mtn-layer-6').css({
+   transform: "translate3d(0,"+ -scrolltop*.4 +"px,0)"
    });
    $('#mtn-layer-7').css({
-    transform: "translate3d(0,"+ -scrolltop*.2 +"px,0)"
+    transform: "translate3d(0,"+ -scrolltop*.3 +"px,0)"
   });
 
  });
